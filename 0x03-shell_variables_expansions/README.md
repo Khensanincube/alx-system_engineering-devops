@@ -140,7 +140,7 @@ echo $((BREATH**$LOVE))
 
 #!/bin/bash
 
-echo $((2#BINARY)o)
+echo $((2#$BINARY))
 
 ==========
 12-combinations
@@ -168,7 +168,7 @@ printf '%x\n' $DECIMAL
 
 #!/bin/bash
 
-tr `echo {a..z} | tr -d ' '` `echo {n..z} $(echo {a..m} | tr -d ' '` | tr `echo {A..Z} | tr -d ' '` `echo {N..Z} $(echo {A..M}) | tr -d ' '`
+tr A-Za-z N-ZA-Mn-za-m
 
 ==========
 102-odd
